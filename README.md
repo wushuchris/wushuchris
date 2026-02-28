@@ -19,6 +19,12 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 - **Tech:** Python, OpenCV, TensorFlow/PyTorch, Jupyter  
 - **Repo:** https://github.com/wushuchris/beautyscorecv
 
+### 🧠 Sex Classification ML – Supervised Binary Classification
+- Built and evaluated a binary ML classifier to predict sex from structured features.
+- Focused on data preprocessing, model selection, and evaluation with interpretable metrics.
+- **Tech:** Python, scikit-learn, pandas, Jupyter  
+- **Repo:** https://github.com/wushuchris/sexclassifyML
+
 ---
 
 ## Languages & Tools
