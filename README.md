@@ -8,6 +8,16 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 - MLOps foundations (reproducible experiments, monitoring, CI/CD patterns)
 - Practical agent workflows (retrieval + structured outputs + evaluation)
 
+## 🎓 Education
+
+**M.S. Applied Artificial Intelligence** — University of San Diego  
+*Anticipated May 2026*
+
+**MBA, International Business & Finance** — Rollins College
+
+**B.S. Finance** — University of Florida  
+*Minor in Economics*
+
 ---
 
 ## Featured Projects
