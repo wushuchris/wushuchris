@@ -12,7 +12,3 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 Python • pandas • scikit-learn • PyTorch/TensorFlow • Jupyter • SQL • AWS • GitHub Actions
 
 ---
-
-## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact)
