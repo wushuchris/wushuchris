@@ -1,16 +1,18 @@
-## Hi there 👋
+## Hi, I’m Christopher Mendoza (he/him) 👋
 
-<!--
-**wushuchris/wushuchris** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and I’m completing the **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working prototypes: clear objective, clean data, measurable evaluation, and a deployable workflow.
 
-Here are some ideas to get you started:
+### Focus Areas
+- Applied ML prototypes (classification, forecasting, NLP, computer vision)
+- Financial research tooling (data pipelines, valuation helpers, decision support)
+- MLOps foundations (reproducible experiments, monitoring, CI/CD patterns)
+- Practical agent workflows (retrieval + structured outputs + evaluation)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Languages & Tools
+Python • pandas • scikit-learn • PyTorch/TensorFlow • Jupyter • SQL • AWS • GitHub Actions
+
+---
+
+## GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact)
