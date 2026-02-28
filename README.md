@@ -20,19 +20,24 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
 ### 🧠 BeautyScoreCV – Computer Vision Regression
-- Built an exploratory CV pipeline to predict a continuous aesthetic score from facial images.
-- Focused on image preprocessing, CNN-based feature learning, and regression evaluation.
-- Emphasized model mechanics and limitations rather than subjective claims.
-- **Tech:** Python, OpenCV, TensorFlow/PyTorch, Jupyter  
+
+- **Goal:** Build an exploratory computer vision pipeline to predict a continuous aesthetic score from facial images.
+- **Approach:** Image preprocessing and CNN-based feature learning to map facial images to a numeric regression target.
+- **Outcome:** Delivered an end-to-end CV regression prototype demonstrating image-to-continuous-target modeling, with documented limitations around subjectivity and dataset bias.
+- **Tech:** Python, Jupyter, NumPy, pandas, OpenCV, TensorFlow / PyTorch
 - **Repo:** https://github.com/wushuchris/beautyscorecv
 
+---
+
 ### 🧠 Sex Classification ML – Supervised Binary Classification
-- Built and evaluated a binary ML classifier to predict sex from structured features.
-- Focused on data preprocessing, model selection, and evaluation with interpretable metrics.
-- **Tech:** Python, scikit-learn, pandas, Jupyter  
+
+- **Goal:** Train and evaluate a binary classifier to predict sex from structured input features.
+- **Approach:** Data preprocessing, feature engineering, model training, and evaluation using standard supervised learning techniques.
+- **Outcome:** Produced a fully evaluated binary classification pipeline with interpretable metrics including accuracy, confusion matrix, and ROC analysis.
+- **Tech:** Python, scikit-learn, pandas, Jupyter
 - **Repo:** https://github.com/wushuchris/sexclassifyML
 
 ---
