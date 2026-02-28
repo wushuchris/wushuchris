@@ -8,6 +8,19 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 - MLOps foundations (reproducible experiments, monitoring, CI/CD patterns)
 - Practical agent workflows (retrieval + structured outputs + evaluation)
 
+---
+
+## Featured Projects
+
+### 🧠 BeautyScoreCV – Computer Vision Regression
+- Built an exploratory CV pipeline to predict a continuous aesthetic score from facial images.
+- Focused on image preprocessing, CNN-based feature learning, and regression evaluation.
+- Emphasized model mechanics and limitations rather than subjective claims.
+- **Tech:** Python, OpenCV, TensorFlow/PyTorch, Jupyter  
+- **Repo:** https://github.com/wushuchris/beautyscorecv
+
+---
+
 ## Languages & Tools
 Python • pandas • scikit-learn • PyTorch/TensorFlow • Jupyter • SQL • AWS • GitHub Actions
 
