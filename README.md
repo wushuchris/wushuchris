@@ -42,7 +42,7 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 
 ---
 
-🧠 **CKD Interpretable AI – Chronic Kidney Disease Prediction**
+### 🧠 **CKD Interpretable AI – Chronic Kidney Disease Prediction**
 
 - **Goal:** Build a machine learning system to predict Chronic Kidney Disease using clinical laboratory measurements while maintaining model transparency through explainable AI.
 - **Approach:** Performed full data science workflow including data auditing, cleaning, exploratory analysis, supervised learning (Logistic Regression, Random Forest, Gradient Boosting), and SHAP-based interpretability.
