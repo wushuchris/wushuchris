@@ -2,11 +2,13 @@
 
 I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and I’m completing the **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working prototypes: clear objective, clean data, measurable evaluation, and a deployable workflow.
 
-### Focus Areas
-- Applied AI/ML prototypes (classification, forecasting, NLP, computer vision)
-- Financial research tooling (data pipelines, valuation helpers, decision support)
-- MLOps foundations (reproducible experiments, monitoring, CI/CD patterns)
-- Practical agent workflows (retrieval + structured outputs + evaluation)
+## Focus Areas
+
+Real-time AI systems (IoT telemetry, decision engines, LLM integration)  
+Applied machine learning (classification, forecasting, NLP, computer vision)  
+AI-driven decision support systems (finance, strategy, analytics)  
+MLOps and production workflows (reproducibility, monitoring, CI/CD)  
+Agent-based AI workflows (retrieval, structured outputs, evaluation)  
 
 ## 🎓 Education
 
