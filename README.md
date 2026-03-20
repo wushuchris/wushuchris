@@ -22,6 +22,30 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 
 ## 🚀 Featured Projects
 
+---
+
+### 🏎️ F1 AI Strategy Advisor – IoT + AI Decision System
+- **Goal:** Build a real-time race strategy system using simulated IoT telemetry and AI-driven decision-making  
+- **Approach:** Developed a modular pipeline combining telemetry simulation, rule-based strategy logic, and LLM-powered recommendations using Hugging Face  
+- **Outcome:** Delivered a cloud-deployed interactive dashboard that generates context-aware race strategies based on live telemetry and historical trends  
+- **Tech:** Python, Streamlit, pandas, Hugging Face (Llama 3), time-series simulation  
+- **Repo:** https://github.com/wushuchris/f1-ai-strategy-advisor  
+- **Focus:** Real-time AI systems, IoT simulation, hybrid decision engines
+- **Live App:** https://f1-ai-strategy-advisor-ekkzao7ckhtbv3sfh5v4nd.streamlit.app/ 
+
+---
+
+### 🧠 **CKD Interpretable AI – Chronic Kidney Disease Prediction**
+
+- **Goal:** Build a machine learning system to predict Chronic Kidney Disease using clinical laboratory measurements while maintaining model transparency through explainable AI.
+- **Approach:** Performed full data science workflow including data auditing, cleaning, exploratory analysis, supervised learning (Logistic Regression, Random Forest, Gradient Boosting), and SHAP-based interpretability.
+- **Outcome:** Developed a highly accurate CKD prediction model (Random Forest ROC-AUC = 1.0) and applied SHAP explainability to identify medically relevant predictors such as hemoglobin, packed cell volume, and kidney filtration rate.
+- **Tech:** Python, pandas, scikit-learn, NumPy, SHAP, matplotlib, seaborn, Jupyter
+- **Repo:** https://github.com/wushuchris/ckd-interpretable-ai
+- Focus: Interpretable AI for healthcare decision support
+
+---
+
 ### 🧠 BeautyScoreCV – Computer Vision Regression
 
 - **Goal:** Build an exploratory computer vision pipeline to predict a continuous aesthetic score from facial images.
@@ -42,18 +66,12 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 
 ---
 
-### 🧠 **CKD Interpretable AI – Chronic Kidney Disease Prediction**
-
-- **Goal:** Build a machine learning system to predict Chronic Kidney Disease using clinical laboratory measurements while maintaining model transparency through explainable AI.
-- **Approach:** Performed full data science workflow including data auditing, cleaning, exploratory analysis, supervised learning (Logistic Regression, Random Forest, Gradient Boosting), and SHAP-based interpretability.
-- **Outcome:** Developed a highly accurate CKD prediction model (Random Forest ROC-AUC = 1.0) and applied SHAP explainability to identify medically relevant predictors such as hemoglobin, packed cell volume, and kidney filtration rate.
-- **Tech:** Python, pandas, scikit-learn, NumPy, SHAP, matplotlib, seaborn, Jupyter
-- **Repo:** https://github.com/wushuchris/ckd-interpretable-ai
-- Focus: Interpretable AI for healthcare decision support
-
----
-
 ## Languages & Tools
-Python • pandas • scikit-learn • PyTorch/TensorFlow • Jupyter • SQL • AWS • GitHub Actions
+
+**Core:** Python, pandas, scikit-learn, PyTorch/TensorFlow  
+**AI & LLM:** Hugging Face, LLM APIs  
+**Applications:** Streamlit, Jupyter  
+**Data & Cloud:** SQL, AWS  
+**DevOps:** GitHub Actions
 
 ---
