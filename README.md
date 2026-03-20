@@ -4,11 +4,11 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 
 ## Focus Areas
 
-Real-time AI systems (IoT telemetry, decision engines, LLM integration)  
-Applied machine learning (classification, forecasting, NLP, computer vision)  
-AI-driven decision support systems (finance, strategy, analytics)  
-MLOps and production workflows (reproducibility, monitoring, CI/CD)  
-Agent-based AI workflows (retrieval, structured outputs, evaluation)  
+- Real-time AI systems (IoT telemetry, decision engines, LLM integration)  
+- Applied machine learning (classification, forecasting, NLP, computer vision)  
+- AI-driven decision support systems (finance, strategy, analytics)  
+- MLOps and production workflows (reproducibility, monitoring, CI/CD)  
+- Agent-based AI workflows (retrieval, structured outputs, evaluation)  
 
 ## 🎓 Education
 
