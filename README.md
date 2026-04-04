@@ -68,6 +68,18 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 
 ---
 
+### 🧠 AI Values Discovery Assistant — AI-Powered Reflection Tool
+
+- Goal: Build an interactive AI application that helps users identify core values and generate a structured personal values statement  
+- Approach: Designed a multi-step workflow capturing user inputs (values, motivations, decisions, behaviors) and applied prompt engineering to synthesize responses using a Hugging Face LLM  
+- Outcome: Delivered a cloud-deployed Streamlit app that generates clear, personalized values statements in real time  
+- Tech: Python, Streamlit, Hugging Face, prompt engineering  
+- Repo: https://github.com/wushuchris/ai-values-discovery-assistant  
+- Focus: Human-centered AI, decision support systems, structured prompting  
+- Live App: https://ai-values-discovery-assistant-bqfylytoes3jnzynziycue.streamlit.app
+
+---
+
 ## Languages & Tools
 
 **Core:** Python, pandas, scikit-learn, PyTorch/TensorFlow  
