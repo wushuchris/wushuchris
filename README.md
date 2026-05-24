@@ -79,6 +79,21 @@ I’m an investor and applied AI builder based in San Diego, CA. I lead research
 
 ---
 
+## 🧠 30 Agents for AI Engineers
+
+A portfolio-building series where I design, build, evaluate, and document 30 practical AI agents. Each project focuses on a different agent engineering pattern, including structured outputs, tool use, retrieval, memory, planning, guardrails, evaluation, and deployment.
+
+### 01. Autonomous Decision-Making Agent — Bounded Decision System
+
+- **Goal:** Build an autonomous agent that evaluates context and recommends a bounded next action.
+- **Approach:** Combined rule-based scoring, structured Pydantic schemas, Hugging Face LLM explanations, guardrail checks, batch processing, and auditable JSON/CSV logs.
+- **Outcome:** Delivered a GitHub-ready agent project using the pattern: `Rules decide. The LLM explains. Guardrails review.`
+- **Tech:** Python, Pydantic, pandas, matplotlib, Hugging Face Inference Providers, OpenAI-compatible API client
+- **Repo:** 
+- **Focus:** Agent engineering, bounded autonomy, structured outputs, guardrails, evaluation
+
+---
+
 ## Languages & Tools
 
 **Core:** Python, pandas, scikit-learn, PyTorch/TensorFlow  
