@@ -89,7 +89,7 @@ A portfolio-building series where I design, build, evaluate, and document 30 pra
 - **Approach:** Combined rule-based scoring, structured Pydantic schemas, Hugging Face LLM explanations, guardrail checks, batch processing, and auditable JSON/CSV logs.
 - **Outcome:** Delivered a GitHub-ready agent project using the pattern: `Rules decide. The LLM explains. Guardrails review.`
 - **Tech:** Python, Pydantic, pandas, matplotlib, Hugging Face Inference Providers, OpenAI-compatible API client
-- **Repo:** 
+- **Repo:** https://github.com/wushuchris/01-autonomous-decision-agent
 - **Focus:** Agent engineering, bounded autonomy, structured outputs, guardrails, evaluation
 
 ---
