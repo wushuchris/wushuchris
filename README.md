@@ -95,7 +95,7 @@ A portfolio-building series where I design, build, evaluate, and document 30 pra
 ### 02: Search and Rescue Mission Planning Agent
 A human-in-the-loop planning assistant for search and rescue scenarios. The agent converts high-level rescue intent into structured mission plans with search phases, asset allocation, risk assessment, human checkpoints, and next best actions.
 
-- Live Demo: [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/search-and-rescue-mission-planner)
+- Live Demo: [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/search-and-rescue-mission-planner) *(Hugging Face login may be required)*
 - Focus: Planning agents, human-in-the-loop oversight, safety constraints, mission decomposition
 - Tech Stack: Python, Streamlit, Hugging Face Inference API, Qwen/Qwen2.5-7B-Instruct
 - Code: Private repository; happy to provide a walkthrough or selected excerpts upon request
