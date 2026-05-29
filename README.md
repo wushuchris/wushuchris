@@ -85,21 +85,26 @@ A portfolio-building series where I design, build, evaluate, and document 30 pra
 
 ### 01. Autonomous Decision-Making Agent — Bounded Decision System
 
-- **Goal:** Build an autonomous agent that evaluates context and recommends a bounded next action.
-- **Approach:** Combined rule-based scoring, structured Pydantic schemas, Hugging Face LLM explanations, guardrail checks, batch processing, and auditable JSON/CSV logs.
-- **Outcome:** Delivered a GitHub-ready agent project using the pattern: `Rules decide. The LLM explains. Guardrails review.`
-- **Tech:** Python, Pydantic, pandas, matplotlib, Hugging Face Inference Providers, OpenAI-compatible API client
-- **Repo:** https://github.com/wushuchris/01-autonomous-decision-agent
-- **Focus:** Agent engineering, bounded autonomy, structured outputs, guardrails, evaluation
+**Goal:** Build an autonomous agent that evaluates context and recommends a bounded next action.
+**Agent Pattern:** Bounded decision-making, rule-based scoring, structured outputs, guardrail review, and auditable decision logs.
+**Implementation:** Combined rule-based scoring, Pydantic schemas, Hugging Face LLM explanations, guardrail checks, batch processing, and JSON/CSV logging.
+**Outcome:** Delivered a GitHub-ready agent project using the pattern: **Rules decide. The LLM explains. Guardrails review.**
+**Tech Stack:** Python, Pydantic, pandas, matplotlib, Hugging Face Inference Providers, OpenAI-compatible API client
+**Repo:** [GitHub Repository](https://github.com/wushuchris/01-autonomous-decision-agent)
+**Focus:** Agent engineering, bounded autonomy, structured outputs, guardrails, evaluation
 
-### Agent 2: Planning Agent - Search and Rescue Mission Planner
-A planning-agent pattern that decomposes a high-level objective into structured phases, assumptions, dependencies, risks, checkpoints, and next actions. This implementation applies the pattern to a human-in-the-loop search and rescue scenario.
+---
 
-- Live Demo: [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/search-and-rescue-mission-planner) *(Hugging Face login required)*
-- Agent Pattern: Planning, task decomposition, dependency mapping, risk-aware sequencing, human approval checkpoints
-- Implementation: Search and rescue mission planning assistant for humanitarian and emergency-response scenarios
-- Tech Stack: Python, Streamlit, Hugging Face Inference API, Qwen/Qwen2.5-7B-Instruct
-- Code: Private repository; happy to provide a walkthrough or selected excerpts upon request
+### 02. Planning Agent — Search and Rescue Mission Planner
+
+**Goal:** Build a planning agent that decomposes a high-level objective into a structured, human-in-the-loop execution plan.
+**Agent Pattern:** Planning, task decomposition, dependency mapping, risk-aware sequencing, assumptions, checkpoints, and next-best-action generation.
+**Implementation:** Created a search and rescue mission planning assistant that converts rescue intent into structured mission phases, asset allocation, risk assessment, human approval checkpoints, and safe response recommendations.
+**Outcome:** Deployed a working Hugging Face Space that demonstrates how a planning agent can turn ambiguous user intent into an organized, safety-focused plan for humanitarian and emergency-response scenarios.
+**Tech Stack:** Python, Streamlit, Hugging Face Inference API, Qwen/Qwen2.5-7B-Instruct
+**Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/search-and-rescue-mission-planner) *(Hugging Face login required)*
+**Code:** Private repository; happy to provide a walkthrough or selected excerpts upon request
+**Focus:** Planning agents, task decomposition, human-in-the-loop oversight, safety constraints, mission planning
 
 ---
 
