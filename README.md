@@ -92,11 +92,12 @@ A portfolio-building series where I design, build, evaluate, and document 30 pra
 - **Repo:** https://github.com/wushuchris/01-autonomous-decision-agent
 - **Focus:** Agent engineering, bounded autonomy, structured outputs, guardrails, evaluation
 
-### 02: Search and Rescue Mission Planning Agent
-A human-in-the-loop planning assistant for search and rescue scenarios. The agent converts high-level rescue intent into structured mission plans with search phases, asset allocation, risk assessment, human checkpoints, and next best actions.
+### Agent 2: Planning Agent - Search and Rescue Mission Planner
+A planning-agent pattern that decomposes a high-level objective into structured phases, assumptions, dependencies, risks, checkpoints, and next actions. This implementation applies the pattern to a human-in-the-loop search and rescue scenario.
 
 - Live Demo: [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/search-and-rescue-mission-planner) *(Hugging Face login required)*
-- Focus: Planning agents, human-in-the-loop oversight, safety constraints, mission decomposition
+- Agent Pattern: Planning, task decomposition, dependency mapping, risk-aware sequencing, human approval checkpoints
+- Implementation: Search and rescue mission planning assistant for humanitarian and emergency-response scenarios
 - Tech Stack: Python, Streamlit, Hugging Face Inference API, Qwen/Qwen2.5-7B-Instruct
 - Code: Private repository; happy to provide a walkthrough or selected excerpts upon request
 
