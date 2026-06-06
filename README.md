@@ -108,7 +108,7 @@ A portfolio-building series where I design, build, evaluate, and document 30 pra
 
 ---
 
-## 03. Memory-Augmented Agent — Personal Project Memory Assistant
+### 03. Memory-Augmented Agent — Personal Project Memory Assistant
 
 - **Goal:** Build an agent that uses persistent memory and context recall to support an ongoing project.
 - **Agent Pattern:** Memory-augmented retrieval, episodic memory, semantic memory, context compression, memory write policy, and auditable memory logs.
