@@ -1,6 +1,6 @@
 ## Hi, I’m Christopher Mendoza (he/him) 👋
 
-I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and I’m completing the **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working prototypes: clear objective, clean data, measurable evaluation, and a deployable workflow.
+I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and I recently completed my **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working prototypes: clear objective, clean data, measurable evaluation, and a deployable workflow.
 
 ## Focus Areas
 
