@@ -108,6 +108,19 @@ A portfolio-building series where I design, build, evaluate, and document 30 pra
 
 ---
 
+## 03. Memory-Augmented Agent — Personal Project Memory Assistant
+
+- **Goal:** Build an agent that uses persistent memory and context recall to support an ongoing project.
+- **Agent Pattern:** Memory-augmented retrieval, episodic memory, semantic memory, context compression, memory write policy, and auditable memory logs.
+- **Implementation:** Created a project memory assistant that stores structured memories, embeds them with sentence-transformers, retrieves relevant prior context using cosine similarity, separates semantic and episodic memory, compresses retrieved context, generates a memory-informed response, and decides whether new information should be saved.
+- **Outcome:** Deployed a working Hugging Face Space that demonstrates persistent project memory, visible memory retrieval, context compression, session learning, saved-memory inspection, and audit logging.
+- **Tech Stack:** Python, Pydantic, pandas, sentence-transformers, scikit-learn, Gradio, Hugging Face Spaces
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/03-memory-augmented-agent)
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/03-memory-augmented-agent)
+- **Focus:** memory-augmented agents, retrieval, context recall, semantic memory, episodic memory, context compression, agent auditability
+
+---
+
 ## Languages & Tools
 
 **Core:** Python, pandas, scikit-learn, PyTorch/TensorFlow  
