@@ -121,6 +121,20 @@ A portfolio-building series where I design, build, evaluate, and document 30 pra
 
 ---
 
+### 04. Knowledge Retrieval Agent — Source-Cited RAG Assistant
+
+A retrieval-augmented generation agent that answers questions from a private document collection using chunking, embeddings, hybrid vector/keyword retrieval, source citations, and evidence-grounded responses.
+
+- **Goal:** Build a source-cited knowledge assistant that retrieves relevant evidence before answering.
+- **Approach:** Combined markdown/text ingestion, overlapping chunking, sentence-transformer embeddings, BM25 keyword scoring, hybrid retrieval ranking, cited evidence panels, and confidence-labeled extractive answers.
+- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed RAG agent using the pattern: Retrieve first. Answer second. Cite always.
+- **Tech:** Python, Streamlit, sentence-transformers, scikit-learn, rank-bm25, Docker, GitHub Actions, Hugging Face Spaces
+- **Repo:** https://github.com/wushuchris/04-knowledge-retrieval-agent
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/04-knowledge-retrieval-agent)
+- **Focus:** RAG, retrieval quality, source grounding, citation discipline, evidence ranking, deployment workflow
+
+---
+
 ## Languages & Tools
 
 **Core:** Python, pandas, scikit-learn, PyTorch/TensorFlow  
