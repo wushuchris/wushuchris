@@ -137,13 +137,13 @@ A retrieval-augmented generation agent that answers questions from a private doc
 
 ### 05. Document Intelligence Agent — Structured PDF Intelligence System
 
-**Goal:** Build a document intelligence agent that converts PDFs and text files into structured summaries, searchable chunks, and exportable data.
-**Approach:** Combined PyMuPDF document parsing, Pydantic schemas, page-aware chunking, lightweight local extraction rules, keyword search, Streamlit UI, Docker deployment, and JSON/CSV export workflows.
-**Outcome:** Delivered a GitHub-ready and Hugging Face-deployed document intelligence prototype using the pattern: Parse → Structure → Validate → Search → Export.
-**Tech:** Python, Streamlit, PyMuPDF, Pydantic, pandas, Docker, GitHub Actions, Hugging Face Spaces
-**Repo:** https://github.com/wushuchris/05-document-intelligence-agent
-**Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/05-document-intelligence-agent)
-**Focus:** Document intelligence, PDF parsing, structured extraction, schema validation, searchable chunks, auditable outputs
+- **Goal:** Build a document intelligence agent that converts PDFs and text files into structured summaries, searchable chunks, and exportable data.
+- **Approach:** Combined PyMuPDF document parsing, Pydantic schemas, page-aware chunking, lightweight local extraction rules, keyword search, Streamlit UI, Docker deployment, and JSON/CSV export workflows.
+- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed document intelligence prototype using the pattern: Parse → Structure → Validate → Search → Export.
+- **Tech:** Python, Streamlit, PyMuPDF, Pydantic, pandas, Docker, GitHub Actions, Hugging Face Spaces
+- **Repo:** https://github.com/wushuchris/05-document-intelligence-agent
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/05-document-intelligence-agent)
+- **Focus:** Document intelligence, PDF parsing, structured extraction, schema validation, searchable chunks, auditable outputs
 
 ---
 
