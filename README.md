@@ -2,6 +2,8 @@
 
 I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and I recently completed my **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working prototypes: clear objective, clean data, measurable evaluation, and a deployable workflow.
 
+**Currently building:** a 30-agent portfolio focused on practical AI engineering patterns: planning, retrieval, memory, validation, guardrails, and deployment.
+
 ## Focus Areas
 
 - Real-time AI systems (IoT telemetry, decision engines, LLM integration)  
