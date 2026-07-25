@@ -163,10 +163,10 @@ A retrieval-augmented generation agent that answers questions from a private doc
 
 ## Languages & Tools
 
-**Core:** Python, pandas, scikit-learn, PyTorch/TensorFlow  
-**AI & LLM:** Hugging Face, LLM APIs  
-**Applications:** Streamlit, Jupyter  
-**Data & Cloud:** SQL, AWS  
-**DevOps:** GitHub Actions
+**Core:** Python, pandas, scikit-learn, Pydantic, PyTorch/TensorFlow  
+**AI & LLM:** Hugging Face, sentence-transformers, RAG, LLM APIs  
+**Applications:** Streamlit, Gradio, Jupyter  
+**Data & Cloud:** SQL, AWS, Hugging Face Spaces  
+**Testing & DevOps:** pytest, Docker, GitHub Actions
 
 ---
