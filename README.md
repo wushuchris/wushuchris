@@ -147,6 +147,18 @@ A retrieval-augmented generation agent that answers questions from a private doc
 
 ---
 
+### 06. Verification, Validation, and Evidence Agent — Auditable Claim Verification System
+
+- **Goal:** Build an agent that audits AI-generated claims against supplied evidence and identifies when human review is required.
+- **Approach:** Combined deterministic claim extraction, semantic and lexical evidence matching, citation-aware ranking, rule-based verification, contradiction detection, confidence scoring, human-review escalation, and JSON/CSV/Markdown audit exports.
+- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed verification agent that classifies claims as supported, partially supported, unsupported, contradicted, or not verifiable. The project passed 16 automated tests and all 6 synthetic evaluation cases.
+- **Tech:** Python, Gradio, Pydantic, sentence-transformers, scikit-learn, pandas, pytest, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/06-verification-validation-evidence-agent)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/06-verification-validation-evidence-agent)
+- **Focus:** AI verification, evidence grounding, contradiction detection, citation validation, deterministic guardrails, human-in-the-loop review, auditable outputs
+
+---
+
 ## Languages & Tools
 
 **Core:** Python, pandas, scikit-learn, PyTorch/TensorFlow  
