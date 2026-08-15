@@ -159,6 +159,19 @@ A retrieval-augmented generation agent that answers questions from a private doc
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/06-verification-validation-evidence-agent)
 - **Focus:** AI verification, evidence grounding, contradiction detection, citation validation, deterministic guardrails, human-in-the-loop review, auditable outputs
 
+
+---
+
+### 07. Tool-Using Agent — Structured Tool Router
+
+- **Goal:** Build an agent that can select and use approved tools while keeping execution controlled, validated, and auditable.
+- **Approach:** Combined LLM-based tool selection, structured tool calls, an explicit tool registry and allowlist, argument validation, controlled execution, normalized tool results, multi-tool workflows, and per-request audit logging.
+- **Outcome:** Delivered a production-ready tool-using agent using the pattern: **The model proposes. The application validates and executes.** The agent safely handles calculations, inventory queries, country lookups, multi-step tool use, unauthorized calls, and normalized failures, with 15 passing automated tests.
+- **Tech:** Python, Pydantic, OpenAI-compatible API client, Hugging Face Inference Providers, Cerebras, Gradio, SQLite, pytest, GitHub Actions
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/07-tool-using-agent)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/07-tool-using-agent)
+- **Focus:** Tool use, function calling, structured execution, validation, tool allowlists, multi-tool orchestration, failure handling, auditability, agent security
+
 ---
 
 ## Languages & Tools
