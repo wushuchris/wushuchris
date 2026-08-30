@@ -174,6 +174,18 @@ A retrieval-augmented generation agent that answers questions from a private doc
 
 ---
 
+### 08. Centralized Multi-Agent Orchestrator — Supervisor-Agent Workflow
+
+- **Goal:** Build a centralized orchestrator that coordinates specialized Research, Analysis, Verification, and Synthesis agents while keeping routing, shared state, handoffs, and publication under supervisor control.
+- **Approach:** Combined Pydantic handoff schemas, deterministic analysis IDs, centralized routing, shared workflow state, verification gates, bounded schema normalization, quarantine of uncited analysis, failure containment, source/analysis separation, and auditable per-step history.
+- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed multi-agent system using the pattern: **Sources establish facts. Agents interpret. The orchestrator controls what gets published.** Live testing exposed grounding and schema-drift failure modes that were converted into regression-tested control boundaries.
+- **Tech:** Python, Pydantic, Gradio, OpenAI-compatible API client, Hugging Face Inference Providers, Cerebras, pytest, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/08-centralized-multi-agent-orchestrator)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/08-centralized-multi-agent-orchestrator)
+- **Focus:** Multi-agent orchestration, supervisor-agent architecture, routing, agent handoffs, shared state, verification gates, failure containment, evidence boundaries, auditability
+
+---
+
 ## Languages & Tools
 
 **Core:** Python, pandas, scikit-learn, Pydantic, PyTorch/TensorFlow  
