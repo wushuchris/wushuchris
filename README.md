@@ -3,7 +3,7 @@
 I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and recently completed my **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working AI systems: clear objectives, structured data and interfaces, measurable evaluation, guardrails, and deployable workflows.
 
 **Currently building:** a 30-agent portfolio focused on practical AI engineering patterns including planning, retrieval, memory, tool use, verification, multi-agent orchestration, guardrails, evaluation, and deployment.  
-**Progress:** **8 of 30 agents completed.**
+**Progress:** **9 of 30 agents completed.**
 
 ## Focus Areas
 
@@ -125,6 +125,18 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ---
 
+### 09. Agentic Workflow System — Wealth Management Operations Workflow Dashboard
+
+- **Goal:** Build a deterministic, resumable, and auditable workflow runtime that can coordinate AI-assisted business processes with bounded retries, persistence, conditional routing, and human escalation.
+- **Approach:** Combined Pydantic workflow schemas, DAG validation, an allowlisted handler registry, deterministic execution, SQLite checkpoints, bounded retry policies, append-only workflow events, human approval gates, idempotent resume behavior, deterministic branching, and a tightly bounded AI Intake Organizer inside a fictional wealth-management onboarding workflow.
+- **Outcome:** Delivered a production-validated operations workflow dashboard using the pattern: **AI contributes work. Application code governs the process. Humans retain authority over consequential exceptions.** The project passed 125 automated tests and a 10-case system evaluation, with live Hugging Face validation across standard completion, retry recovery, human approval/rejection, evaluation, and persisted reload paths.
+- **Tech:** Python, Pydantic, SQLite, Gradio, pytest, huggingface-hub, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/09-agentic-workflow-sys)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/09-agentic-workflow-sys)
+- **Focus:** Agentic workflows, DAG execution, workflow state, persistence, bounded retries, human-in-the-loop escalation, idempotency, deterministic routing, bounded AI authority, auditability
+
+---
+
 ## 🚀 Other Featured Projects
 
 ### 🏎️ F1 AI Strategy Advisor — IoT + AI Decision System
@@ -177,7 +189,7 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 - **Outcome:** Delivered a cloud-deployed Streamlit app that generates clear, personalized values statements in real time.
 - **Tech:** Python, Streamlit, Hugging Face, prompt engineering
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/ai-values-discovery-assistant)
-- **Live App:** [Streamlit App](https://ai-values-discovery-assistant-bqfylytoes3jnzynziycue.streamlit.app)
+- **Live App:** [Streamlit App](https://ai-values-discovery-assistant-bqfylytoes3jnzynziycue.streamlit.app/)
 - **Focus:** Human-centered AI, decision support systems, structured prompting
 
 ---
