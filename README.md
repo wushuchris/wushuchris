@@ -2,8 +2,8 @@
 
 I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and recently completed my **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working AI systems: clear objectives, structured data and interfaces, measurable evaluation, guardrails, and deployable workflows.
 
-**Currently building:** a 30-agent portfolio focused on practical AI engineering patterns including planning, retrieval, memory, tool use, verification, multi-agent orchestration, guardrails, evaluation, and deployment.  
-**Progress:** **9 of 30 agents completed.**
+**Currently building:** a 30-agent portfolio focused on practical AI engineering patterns including planning, retrieval, memory, tool use, verification, multi-agent orchestration, peer-to-peer coordination, guardrails, evaluation, and deployment.  
+**Progress:** **10 of 30 agents completed.**
 
 ## Focus Areas
 
@@ -134,6 +134,18 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/09-agentic-workflow-sys)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/09-agentic-workflow-sys)
 - **Focus:** Agentic workflows, DAG execution, workflow state, persistence, bounded retries, human-in-the-loop escalation, idempotency, deterministic routing, bounded AI authority, auditability
+
+---
+
+### 10. Peer-to-Peer Coordination Agent — Decentralized Research Team
+
+- **Goal:** Build a typed peer-to-peer coordination system where specialized agents can discover one another, self-select bounded work, exchange validated work products, challenge peers, and complete a shared mission without a central semantic orchestrator assigning the work.
+- **Approach:** Combined typed Pydantic message contracts, passive peer discovery, a validated message bus, independent local state, deterministic role-claim rules, locally authorized work execution, challenge/revision protocols, failure containment, a centralized comparison baseline, bounded structured LLM work handlers, adversarial evaluations, and an auditable protocol-derived agent conversation.
+- **Outcome:** Delivered a production-validated multi-agent research demo using the pattern: **The agents reason with LLMs. The agents coordinate through an engineered protocol.** The project passed 112 automated tests, completed both deterministic and live LLM-assisted Hugging Face production checks, and presents the business story first while preserving the complete technical audit underneath.
+- **Tech:** Python, Pydantic, Gradio, OpenAI-compatible API client, Hugging Face Inference Providers, Qwen3.8, pytest, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/10-peer-to-peer-coordination-agent)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/10-peer-to-peer-coordination-agent)
+- **Focus:** Peer-to-peer agents, decentralized coordination, typed messaging, local state, role self-selection, verification, disagreement handling, failure containment, bounded LLM authority, multi-agent evaluation, auditability
 
 ---
 
