@@ -2,8 +2,8 @@
 
 I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and recently completed my **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working AI systems: clear objectives, structured data and interfaces, measurable evaluation, guardrails, and deployable workflows.
 
-**Currently building:** a 30-agent portfolio focused on practical AI engineering patterns including planning, retrieval, memory, tool use, verification, multi-agent orchestration, peer-to-peer coordination, guardrails, evaluation, and deployment.  
-**Progress:** **10 of 30 agents completed.**
+**Currently building:** a 30-agent portfolio focused on practical AI engineering patterns including planning, retrieval, memory, tool use, verification, multi-agent orchestration, peer-to-peer coordination, distributed task allocation, guardrails, evaluation, and deployment.  
+**Progress:** **11 of 30 agents completed.**
 
 ## Focus Areas
 
@@ -146,6 +146,18 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/10-peer-to-peer-coordination-agent)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/10-peer-to-peer-coordination-agent)
 - **Focus:** Peer-to-peer agents, decentralized coordination, typed messaging, local state, role self-selection, verification, disagreement handling, failure containment, bounded LLM authority, multi-agent evaluation, auditability
+
+---
+
+### 11. Distributed Auction Task Allocation Agent — Multi-Agent Task Marketplace
+
+- **Goal:** Build a distributed task-allocation system where multiple qualified peers can compete for work based on capability, confidence, availability, and cost without a permanent semantic manager assigning each task.
+- **Approach:** Combined typed task announcements, local BID/ABSTAIN policies, an application-owned capability registry, strict auction admission, deterministic weighted settlement and tie-breaking, bounded task reauction after explicit failure, allocation-efficiency and message-complexity metrics, a centralized comparison baseline, stress evaluation, and bounded structured LLM work handlers that operate only after a task is awarded.
+- **Outcome:** Delivered a production-validated multi-agent due-diligence marketplace using the pattern: **Peers decide whether to compete. The protocol decides who wins.** The project passed 140 automated tests, completed deterministic and live LLM-assisted Hugging Face production checks, preserved the same deterministic allocation boundary in both modes, and quantified the coordination cost of decentralized allocation against an equivalent centralized baseline.
+- **Tech:** Python, Pydantic, Gradio, OpenAI-compatible API client, Hugging Face Inference Providers, Qwen3.8, pytest, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/11-distributed-auction-task-allocation-agent)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/11-distributed-auction-task-allocation-agent)
+- **Focus:** Distributed task allocation, multi-agent auctions, capability matching, local bidding policy, deterministic settlement, bounded reauction, allocation efficiency, message complexity, bounded LLM authority, auditability
 
 ---
 
