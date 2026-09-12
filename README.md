@@ -44,13 +44,13 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ### 02. Planning Agent — Search and Rescue Mission Planner
 
-- **Goal:** Build a planning agent that decomposes a high-level objective into a structured, human-in-the-loop execution plan.
-- **Approach:** Combined task decomposition, dependency mapping, risk-aware sequencing, assumptions, checkpoints, asset allocation, human approval gates, and next-best-action generation in a search-and-rescue scenario.
-- **Outcome:** Deployed a working Hugging Face Space that demonstrates how a planning agent can turn ambiguous user intent into an organized, safety-focused plan for humanitarian and emergency-response scenarios.
-- **Tech:** Python, Streamlit, Hugging Face Inference API, Qwen/Qwen2.5-7B-Instruct
-- **Repo:** Private repository; happy to provide a walkthrough or selected excerpts upon request
+- **Goal:** Build a reusable planning agent that turns objectives, resources, constraints, success criteria, and approval policy into a structured plan graph while keeping execution authority with application rules and human reviewers.
+- **Approach:** Combined typed Pydantic request/plan contracts, structured LLM plan generation, application-owned policy metadata, dependency-graph validation, deterministic resource/approval/constraint/completion checks, bounded replanning, proposal fingerprinting, explicit human approve/reject/revise transitions, audit export, GitHub Actions deployment gating, and a controlled live-model benchmark.
+- **Outcome:** Delivered a production-validated planning demo using the pattern: **The LLM proposes. Rules validate. The agent replans. Humans approve.** The project passed **52 automated tests** and **25/25 deterministic evaluation cases**. An 8-scenario live benchmark with `Qwen/Qwen3.8-27B:ovhcloud` achieved **8/8 schema success, 8/8 first-pass validation, 8/8 final validation, 0% resource-conflict rate, and 100% expected unresolved-question behavior**; all final plans remained `AWAITING_HUMAN_APPROVAL`. The single tagged prompt-injection fixture also preserved the application contract. Because every live proposal passed on the first attempt, no live replan-repair rate is claimed.
+- **Tech:** Python, Pydantic, Streamlit, OpenAI-compatible API client, Hugging Face Inference Providers, Qwen3.8, unittest, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/agent-02-autonomous-mission-planner)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/search-and-rescue-mission-planner) *(Hugging Face login required)*
-- **Focus:** Planning agents, task decomposition, human-in-the-loop oversight, safety constraints, mission planning
+- **Focus:** Structured planning, plan graphs, deterministic validation, bounded replanning, human approval, policy contracts, auditability, live-model evaluation
 
 ---
 
