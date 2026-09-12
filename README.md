@@ -32,12 +32,13 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ### 01. Autonomous Decision-Making Agent — Bounded Decision System
 
-- **Goal:** Build an autonomous agent that evaluates context and recommends a bounded next action.
-- **Approach:** Combined rule-based scoring, structured Pydantic schemas, Hugging Face LLM explanations, guardrail checks, batch processing, and auditable JSON/CSV logs.
-- **Outcome:** Delivered a GitHub-ready agent project using the pattern: **Rules decide. The LLM explains. Guardrails review.**
-- **Tech:** Python, Pydantic, pandas, matplotlib, Hugging Face Inference Providers, OpenAI-compatible API client
+- **Goal:** Build an autonomous decision system that can recommend a bounded next action without allowing the LLM to invent the action space or bypass mandatory review.
+- **Approach:** Combined typed Pydantic inputs, deterministic application-owned factor scoring, a fixed four-action set, mandatory human-review gates, real `run_decision_iter()` observability, runtime-configured Hugging Face LLM explanations, explanation publication guardrails, deterministic fallback, public-repository hygiene checks, and GitHub Actions deployment gating.
+- **Outcome:** Rebuilt the original Colab-era project into a production-validated bounded-autonomy demo using the pattern: **Application code decides. The LLM explains. Guardrails decide what gets published.** The final project passed **28 automated tests** and **7/7 decision/guardrail evaluation cases**, live-validated `Qwen/Qwen3.8-27B:ovhcloud` through Hugging Face Inference Providers, preserves the application-selected action when the model fails or violates the explanation boundary, deploys from a sanitized public GitHub history, and passed final human presentation review with a centered 1080px business-first interface.
+- **Tech:** Python, Pydantic, Gradio, OpenAI-compatible API client, Hugging Face Inference Providers, Qwen3.8, pytest, GitHub Actions, Hugging Face Spaces
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/01-autonomous-decision-agent)
-- **Focus:** Agent engineering, bounded autonomy, structured outputs, guardrails, evaluation
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/01-autonomous-decision-agent)
+- **Focus:** Bounded autonomy, deterministic decision authority, human-review gates, LLM explanation, publication guardrails, fallback behavior, runtime configuration, evaluation, public-demo hygiene, live observability
 
 ---
 
