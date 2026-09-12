@@ -65,15 +65,15 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ---
 
-### 04. Knowledge Retrieval Agent — Source-Cited RAG Assistant
+### 04. Knowledge Retrieval Agent — Approved-Corpus Evidence Retrieval
 
-- **Goal:** Build a source-cited knowledge assistant that retrieves relevant evidence before answering.
-- **Approach:** Combined markdown/text ingestion, overlapping chunking, sentence-transformer embeddings, BM25 keyword scoring, hybrid retrieval ranking, cited evidence panels, and confidence-labeled extractive answers.
-- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed RAG agent using the pattern: **Retrieve first. Answer second. Cite always.**
-- **Tech:** Python, Streamlit, sentence-transformers, scikit-learn, rank-bm25, Docker, GitHub Actions, Hugging Face Spaces
+- **Goal:** Build a retrieval agent that answers from an approved knowledge base, shows the evidence it used, and abstains when the retrieved evidence is too weak.
+- **Approach:** Combined approved Markdown/text ingestion, overlapping source-aware chunking, sentence-transformer semantic search, BM25 lexical search, deterministic hybrid ranking, an explicit evidence-strength gate, source-cited extractive answers, and a real `search_iter()` event stream that exposes semantic scoring, keyword scoring, hybrid ranking, and evidence assessment while retrieval runs.
+- **Outcome:** Delivered a production-validated retrieval demo using the pattern: **Approved corpus → Retrieve → Rank → Assess evidence → Answer or abstain.** The project passed **16 automated tests** and an **8-question retrieval benchmark** with **Hit@1 = 87.5%**, **Hit@3 = 100%**, and **MRR = 0.9375**. Deployment is gated on both pytest and retrieval quality, the Streamlit entrypoint has smoke coverage, CPU-only PyTorch avoids unnecessary CUDA dependencies, and the final centered 1080px business-first presentation passed human review. The project explicitly preserves the boundary that retrieval relevance is **not** independent truth verification.
+- **Tech:** Python, Streamlit, sentence-transformers, scikit-learn, rank-bm25, pandas, pytest, Docker, GitHub Actions, Hugging Face Spaces
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/04-knowledge-retrieval-agent)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/04-knowledge-retrieval-agent)
-- **Focus:** RAG, retrieval quality, source grounding, citation discipline, evidence ranking, deployment workflow
+- **Focus:** Hybrid retrieval, approved-corpus grounding, evidence sufficiency, abstention, retrieval evaluation, source citations, live retrieval observability, deployment gates
 
 ---
 
