@@ -77,15 +77,15 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ---
 
-### 05. Document Intelligence Agent — Structured PDF Intelligence System
+### 05. Document Intelligence Agent — Source-Linked Document Intelligence
 
-- **Goal:** Build a document intelligence agent that converts PDFs and text files into structured summaries, searchable chunks, and exportable data.
-- **Approach:** Combined PyMuPDF document parsing, Pydantic schemas, page-aware chunking, lightweight local extraction rules, keyword search, Streamlit UI, Docker deployment, and JSON/CSV export workflows.
-- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed document intelligence prototype using the pattern: **Parse → Structure → Validate → Search → Export.**
-- **Tech:** Python, Streamlit, PyMuPDF, Pydantic, pandas, Docker, GitHub Actions, Hugging Face Spaces
+- **Goal:** Turn PDFs and text files into structured, searchable work products while preserving traceability back to the source document.
+- **Approach:** Combined PyMuPDF parsing, typed Pydantic schemas, page-aware chunking, deterministic local extraction, stable source-linked findings, page/chunk provenance, keyword search over original chunks, JSON/CSV exports, and a real `parse_document_iter()` event stream that exposes the document-processing pipeline while it runs.
+- **Outcome:** Delivered a production-validated document-intelligence demo using the pattern: **Parse → Structure → Preserve provenance → Search → Export.** The project passed **17 automated tests** and **4/4 deterministic evaluation cases**, added a Streamlit application smoke test, gates Hugging Face deployment on both pytest and the document benchmark, and passed final human presentation review with a centered 1080px business-first experience. The evaluation suite also caught and blocked a real legacy false positive where “completed” was incorrectly treated as a pending action item, and that failure became a permanent regression test.
+- **Tech:** Python, Streamlit, PyMuPDF, Pydantic, pandas, pytest, Docker, GitHub Actions, Hugging Face Spaces
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/05-document-intelligence-agent)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/05-document-intelligence-agent)
-- **Focus:** Document intelligence, PDF parsing, structured extraction, schema validation, searchable chunks, auditable outputs
+- **Focus:** Document intelligence, source provenance, PDF parsing, structured extraction, page-aware chunking, deterministic evaluation, searchable evidence, auditable outputs, live processing observability
 
 ---
 
