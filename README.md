@@ -89,15 +89,15 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ---
 
-### 06. Verification, Validation, and Evidence Agent — Auditable Claim Verification System
+### 06. Verification, Validation, and Evidence Agent — AI Evidence Review Gate
 
-- **Goal:** Build an agent that audits AI-generated claims against supplied evidence and identifies when human review is required.
-- **Approach:** Combined deterministic claim extraction, semantic and lexical evidence matching, citation-aware ranking, rule-based verification, contradiction detection, confidence scoring, human-review escalation, and JSON/CSV/Markdown audit exports.
-- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed verification agent that classifies claims as supported, partially supported, unsupported, contradicted, or not verifiable. The project passed 16 automated tests and all 6 synthetic evaluation cases.
+- **Goal:** Build an evidence-review boundary that checks AI-generated factual claims against supplied evidence before someone relies on the answer, while clearly separating evidence alignment from independent truth certification.
+- **Approach:** Combined deterministic claim extraction, semantic and lexical evidence matching, citation-aware retrieval, explicit numeric and negation contradiction checks, reliability-aware rule evaluation, PASS/REVIEW/FAIL aggregation, human-review escalation, JSON/CSV/Markdown audit exports, and a real `verify_iter()` event stream that exposes the verification workflow while it runs.
+- **Outcome:** Delivered a production-validated evidence-review demo using the pattern: **Semantic matching retrieves. Deterministic rules decide. Humans resolve uncertainty.** The project passed **20 automated tests** and **6/6 synthetic evaluation cases**, gates Hugging Face deployment on both pytest and the verification benchmark, and passed final human presentation review with a centered 1080px business-first experience, visible Live Evidence Review, readable claim-level findings, and an explicit **PASS ≠ independently proven truth** boundary.
 - **Tech:** Python, Gradio, Pydantic, sentence-transformers, scikit-learn, pandas, pytest, GitHub Actions, Hugging Face Spaces
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/06-verification-validation-evidence-agent)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/06-verification-validation-evidence-agent)
-- **Focus:** AI verification, evidence grounding, contradiction detection, citation validation, deterministic guardrails, human-in-the-loop review, auditable outputs
+- **Focus:** AI verification, evidence alignment, contradiction detection, citation validation, deterministic guardrails, uncertainty escalation, human-in-the-loop review, auditability, live verification observability
 
 ---
 
