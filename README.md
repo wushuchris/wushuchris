@@ -101,15 +101,15 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ---
 
-### 07. Tool-Using Agent — Structured Tool Router
+### 07. Governed Tool-Using Agent — Application-Controlled Capability Boundary
 
-- **Goal:** Build an agent that can select and use approved tools while keeping execution controlled, validated, and auditable.
-- **Approach:** Combined LLM-based tool selection, structured tool calls, an explicit tool registry and allowlist, argument validation, controlled execution, normalized tool results, multi-tool workflows, and per-request audit logging.
-- **Outcome:** Delivered a production-ready tool-using agent using the pattern: **The model proposes. The application validates and executes.** The agent safely handles calculations, inventory queries, country lookups, multi-step tool use, unauthorized calls, and normalized failures, with 15 passing automated tests.
-- **Tech:** Python, Pydantic, OpenAI-compatible API client, Hugging Face Inference Providers, Cerebras, Gradio, SQLite, pytest, GitHub Actions
+- **Goal:** Let an LLM use useful business capabilities without allowing the model to grant itself unrestricted authority over code, databases, filesystems, or arbitrary network resources.
+- **Approach:** Combined model-selected tool requests, a deterministic application-owned capability registry, typed arguments, explicit authorization, controlled execution, bounded tool rounds, normalized `success` / `blocked` / `error` outcomes, current-run audit logging, multi-tool reasoning, and a real `run_agent_iter()` event stream that exposes the model/application trust boundary while the request runs.
+- **Outcome:** Delivered a production-validated governed tool-use demo using the pattern: **The model proposes. Application code owns authorization, validation, execution, and auditability.** The project passed **23 automated tests**, distinguishes requests blocked before execution from authorized tools that fail at runtime, uses a test-gated GitHub → Hugging Face deployment workflow, and passed final human presentation review with a centered business-first experience, an explicit Model Controls / Application Controls boundary, visible live execution events, and the raw engineering audit underneath.
+- **Tech:** Python, Pydantic, OpenAI-compatible API client, Hugging Face Inference Providers, Cerebras, Gradio, SQLite, World Bank API, pytest, GitHub Actions, Hugging Face Spaces
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/07-tool-using-agent)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/07-tool-using-agent)
-- **Focus:** Tool use, function calling, structured execution, validation, tool allowlists, multi-tool orchestration, failure handling, auditability, agent security
+- **Focus:** Governed tool use, function calling, capability authorization, tool allowlists, structured execution, multi-tool reasoning, failure semantics, auditability, agent security, live observability
 
 ---
 
