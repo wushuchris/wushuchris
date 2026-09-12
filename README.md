@@ -113,15 +113,15 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ---
 
-### 08. Centralized Multi-Agent Orchestrator — Supervisor-Agent Workflow
+### 08. Centralized Multi-Agent Orchestrator — Supervised AI Decision Team
 
-- **Goal:** Build a centralized orchestrator that coordinates specialized Research, Analysis, Verification, and Synthesis agents while keeping routing, shared state, handoffs, and publication under supervisor control.
-- **Approach:** Combined Pydantic handoff schemas, deterministic analysis IDs, centralized routing, shared workflow state, verification gates, bounded schema normalization, quarantine of uncited analysis, failure containment, source/analysis separation, and auditable per-step history.
-- **Outcome:** Delivered a GitHub-ready and Hugging Face-deployed multi-agent system using the pattern: **Sources establish facts. Agents interpret. The orchestrator controls what gets published.** Live testing exposed grounding and schema-drift failure modes that were converted into regression-tested control boundaries.
+- **Goal:** Build a centralized orchestrator that coordinates specialized Research, Analysis, Verification, and Synthesis agents while keeping routing, shared state, handoffs, failure containment, and publication under supervisor control.
+- **Approach:** Combined Pydantic handoff schemas, deterministic analysis IDs, centralized routing, shared workflow state, verification gates, bounded schema normalization, quarantine of uncited analysis, source/analysis separation, orchestrator-controlled final rendering, auditable history, a reusable `run_iter()` supervisor-state stream, and a business-first live multi-agent presentation.
+- **Outcome:** Delivered a production-validated supervised AI decision-team demo using the pattern: **Sources establish facts. Agents interpret. The orchestrator controls what gets published.** The project passed **18 automated tests**, converted live grounding and schema-drift failures into regression-tested control boundaries, and passed final human presentation review with a centered 1080px business-first workspace, real stage-by-stage supervisor activity, readable specialist work products, an explicit publication boundary, and the raw engineering audit underneath.
 - **Tech:** Python, Pydantic, Gradio, OpenAI-compatible API client, Hugging Face Inference Providers, Cerebras, pytest, GitHub Actions, Hugging Face Spaces
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/08-centralized-multi-agent-orchestrator)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/08-centralized-multi-agent-orchestrator)
-- **Focus:** Multi-agent orchestration, supervisor-agent architecture, routing, agent handoffs, shared state, verification gates, failure containment, evidence boundaries, auditability
+- **Focus:** Multi-agent orchestration, supervisor-agent architecture, routing, agent handoffs, shared state, verification gates, failure containment, publication boundaries, real-time observability, evidence boundaries, auditability
 
 ---
 
