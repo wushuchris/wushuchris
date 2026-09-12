@@ -53,15 +53,15 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 
 ---
 
-### 03. Memory-Augmented Agent — Personal Project Memory Assistant
+### 03. Memory-Augmented Agent — Governed Project Continuity
 
-- **Goal:** Build an agent that uses persistent memory and context recall to support an ongoing project.
-- **Approach:** Combined structured memory storage, sentence-transformer embeddings, cosine-similarity retrieval, semantic and episodic memory, context compression, memory write policy, and auditable memory logs.
-- **Outcome:** Deployed a working Hugging Face Space that demonstrates persistent project memory, visible memory retrieval, context compression, session learning, saved-memory inspection, and audit logging.
-- **Tech:** Python, Pydantic, pandas, sentence-transformers, scikit-learn, Gradio, Hugging Face Spaces
+- **Goal:** Build a memory-augmented agent that carries useful project context across turns without treating every interaction as permanent storage.
+- **Approach:** Combined synthetic session-scoped memory, sentence-transformer retrieval, semantic and episodic memory, context compression, a deterministic **SAVE / SKIP / BLOCK** retention policy, metadata-only audit, real memory-pipeline observability, per-session isolation, and automated public-repository hygiene checks.
+- **Outcome:** Delivered a production-validated governed continuity demo using the pattern: **Retrieve → Compress → Answer → Evaluate memory write → SAVE / SKIP / BLOCK.** The project passed **26 automated tests**, **5/5 retrieval benchmark cases ranked the expected memory #1** with **MRR = 1.0**, and **3/3 memory-write policy cases**. The public demo was rebuilt around a fictional Harborlight enterprise-pilot handoff, the repository and Hugging Face history were sanitized before redeployment, and the final centered 1080px business-first presentation passed human review.
+- **Tech:** Python, Pydantic, sentence-transformers, scikit-learn, pandas, Gradio, pytest, GitHub Actions, Hugging Face Spaces
 - **Repo:** [GitHub Repository](https://github.com/wushuchris/03-memory-augmented-agent)
 - **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/03-memory-augmented-agent)
-- **Focus:** Memory-augmented agents, retrieval, context recall, semantic memory, episodic memory, context compression, agent auditability
+- **Focus:** Governed memory, project continuity, semantic memory, episodic memory, context compression, retention policy, session isolation, privacy-aware auditability, public-demo hygiene, live observability
 
 ---
 
