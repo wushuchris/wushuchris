@@ -3,7 +3,7 @@
 I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and recently completed my **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working AI systems: clear objectives, structured data and interfaces, measurable evaluation, guardrails, and deployable workflows.
 
 **Currently building:** a 30-agent portfolio focused on practical AI engineering patterns including planning, retrieval, memory, tool use, verification, multi-agent orchestration, peer-to-peer coordination, distributed task allocation, guardrails, evaluation, and deployment.  
-**Progress:** **11 of 30 agents completed.**
+**Progress:** **12 of 30 agents completed.**
 
 ## Focus Areas
 
@@ -161,6 +161,18 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 - **Focus:** Distributed task allocation, multi-agent auctions, capability matching, local bidding policy, deterministic settlement, bounded reauction, allocation efficiency, message complexity, bounded LLM authority, auditability
 
 ---
+### 12. Role Coherence Monitor — AI Role-Drift Control Layer
+
+- **Goal:** Build an independent supervisory control layer that keeps long-running AI agents inside their assigned responsibilities and authority, even as conversation history, user pressure, or retrieved context tries to pull them outside the role.
+- **Approach:** Combined an immutable typed role contract, deterministic hard-rule checks, bounded semantic drift classification, application-owned severity-to-score mapping, a longitudinal coherence state machine, explicit bounded repair, human escalation, immutable append-only audit events, formal long-horizon evaluation, strict Hugging Face structured outputs, separated deploy/runtime credentials, and a business-first Gradio demo with the full engineering evidence underneath.
+- **Outcome:** Delivered a production-validated role-coherence system using the pattern: **Models classify behavior. Applications enforce authority.** Live production testing directly changed the architecture: unreliable model-generated numeric scores were removed from the provider schema and replaced with deterministic application-derived scoring, user-input evidence was disallowed as proof of agent drift, and repair evidence was hardened fail-closed. The project passed **171 automated tests**, validated deterministic `BLOCKED`, live semantic `COHERENT`, and live semantic `DRIFTING` paths on Hugging Face, and presents the business case through plain-English role-drift, authority-violation, and missed-human-handoff stories.
+- **Tech:** Python, Pydantic, Gradio, Hugging Face Inference Providers, Qwen3, DeepInfra, pytest, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/12-role-coherence-monitor)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/12-role-coherence-monitor)
+- **Focus:** Role coherence, long-horizon drift detection, immutable role contracts, deterministic authority controls, semantic classification, application-owned scoring, bounded repair, human escalation, append-only auditability, production-driven regression testing
+
+---
+
 
 ## 🚀 Other Featured Projects
 
