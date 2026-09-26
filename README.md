@@ -3,7 +3,7 @@
 I’m an investor and applied AI builder based in San Diego, CA. I lead research at an institutional money manager and recently completed my **M.S. in Applied Artificial Intelligence** at the University of San Diego. I like turning messy, real-world problems into working AI systems: clear objectives, structured data and interfaces, measurable evaluation, guardrails, and deployable workflows.
 
 **Currently building:** a 30-agent portfolio focused on practical AI engineering patterns including planning, retrieval, memory, tool use, verification, multi-agent orchestration, peer-to-peer coordination, distributed task allocation, guardrails, evaluation, and deployment.  
-**Progress:** **12 of 30 agents completed.**
+**Progress:** **13 of 30 agents completed.**
 
 ## Focus Areas
 
@@ -172,6 +172,19 @@ Each agent is designed as a reusable engineering primitive. As the portfolio pro
 - **Focus:** Role coherence, long-horizon drift detection, immutable role contracts, deterministic authority controls, semantic classification, application-owned scoring, bounded repair, human escalation, append-only auditability, production-driven regression testing
 
 ---
+
+### 13. Fault-Tolerant Multi-Agent System — Resilient Financial Services AI Team
+
+- **Goal:** Build a fault-tolerant multi-agent system that can continue operating safely when peers fail, disappear, contradict one another, return malformed work, or provide misleading information.
+- **Approach:** Combined six redundant Evidence, Analysis, and Verification peers; deterministic fault injection; separate health and trust state; bounded retry, corroboration, substitution, quarantine, and human escalation; trust-aware consensus; append-only audit events; recovery metrics; a 16-scenario reliability harness; a centralized baseline comparison; a bounded Hugging Face LLM specialist adapter; and a guided financial-services pricing-anomaly demo that shows work moving through the team.
+- **Outcome:** Delivered a production-validated resilient AI organization using the pattern: **Agents contribute work. The reliability protocol decides whom to trust and how to recover.** The project passed **171 automated tests** and the full **16-scenario multi-agent evaluation**, safely handled unavailable, malformed, unsupported, contradictory, misleading, and out-of-role peers, demonstrated human escalation when independent capability disappeared, validated a live bounded AI analyst through Hugging Face Inference Providers, and passed final portfolio presentation review with a narrow business-first case walkthrough plus the full engineering evidence underneath.
+- **Tech:** Python, Pydantic, Gradio, OpenAI-compatible API client, Hugging Face Inference Providers, gpt-oss-20b, pytest, GitHub Actions, Hugging Face Spaces
+- **Repo:** [GitHub Repository](https://github.com/wushuchris/13-fault-tolerant-multi-agent-system)
+- **Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/FlyingNunchucks/13-fault-tolerant-multi-agent-system)
+- **Focus:** Fault-tolerant multi-agent systems, redundant capability, health and trust separation, corroboration, substitution, quarantine, trust-aware consensus, human escalation, recovery-time measurement, financial-services AI controls, live multi-agent observability
+
+---
+
 
 
 ## 🚀 Other Featured Projects
